@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Preview HTML (Edge)",
+      "type": "pwa-msedge",
+      "request": "launch",
+      "url": "file://${workspaceFolder}/templates/preview.html",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Preview HTML (Chrome)",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "file://${workspaceFolder}/templates/preview.html",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}

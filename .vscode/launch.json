@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Preview HTML (Chrome)",
+            "type": "pwa-chrome",
+            "request": "launch",
+            "file": "${workspaceFolder}/nature21/templates/preview.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": false
+        },
+        {
+            "name": "Preview HTML (Edge)",
+            "type": "pwa-msedge",
+            "request": "launch",
+            "file": "${workspaceFolder}/nature21/templates/preview.html",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": false
+        }
+    ]
+}
